@@ -24,6 +24,18 @@
 			"macroType": "SingleUse",
 			// Delay(Milliseconds) used for the delay type.
 			"delay": 0
+		},
+		{
+			// Macro keybinding
+			"keyName": "key.keyboard.keypad.add",
+			// Key modifier
+			"keyModName": "key.keyboard.unknown",
+			// Command to execute
+			"command": "/tick step 2",
+			// Type of Macro. Delayed, Repeating, SingleUse, DisplayOnly
+			"macroType": "SingleUse",
+			// Delay(Milliseconds) used for the delay type.
+			"delay": 0
 		}
 	]
 }

@@ -71,6 +71,7 @@
     "textColor": "#FFE0E0E0"
   },
   "Generic": {
+    "axolotlTooltipsTooltips": false,
     "beeTooltips": false,
     "honeyTooltips": false,
     "enabled": true,
@@ -207,11 +208,11 @@
     "infoParticleCount": false,
     "infoPing": false,
     "infoRegionFile": false,
-    "infoRotationPitch": true,
+    "infoRotationPitch": false,
     "infoRotationYaw": false,
     "infoServerTPS": true,
     "infoSlimeChunk": false,
-    "infoSpeed": true,
+    "infoSpeed": false,
     "infoSpeedAxis": false,
     "infoTileEntities": false,
     "infoTimeDayModulo": false,
@@ -282,7 +283,7 @@
       }
     },
     "infoBlockPosition": {
-      "keys": "",
+      "keys": "H,B,P",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",
@@ -354,7 +355,7 @@
       }
     },
     "infoCoordinates": {
-      "keys": "",
+      "keys": "H,P",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",
@@ -438,7 +439,7 @@
       }
     },
     "infoFacing": {
-      "keys": "",
+      "keys": "H,F",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",
@@ -474,7 +475,7 @@
       }
     },
     "infoLightLevel": {
-      "keys": "",
+      "keys": "H,L",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",
@@ -582,7 +583,7 @@
       }
     },
     "infoRotationPitch": {
-      "keys": "",
+      "keys": "H,S",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",
@@ -630,7 +631,7 @@
       }
     },
     "infoSpeed": {
-      "keys": "",
+      "keys": "H,S",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",
@@ -727,6 +728,7 @@
     }
   },
   "RendererToggles": {
+    "debugChunkBorder": false,
     "debugChunkInfo": false,
     "debugChunkOcclusion": false,
     "debugCollisionBoxEnabled": false,
@@ -744,9 +746,21 @@
     "overlaySpawnChunkReal": false,
     "overlaySpawnChunkPlayer": false,
     "overlayStructureMainToggle": false,
-    "shapeRenderer": false
+    "shapeRenderer": true
   },
   "RendererHotkeys": {
+    "debugChunkBorder": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
     "debugChunkInfo": {
       "keys": "",
       "settings": {
