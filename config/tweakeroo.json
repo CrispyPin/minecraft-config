@@ -628,7 +628,7 @@
     "disableBossFog": false,
     "disableChunkRendering": false,
     "disableClientEntityUpdates": false,
-    "disableClientLightUpdates": true,
+    "disableClientLightUpdates": false,
     "disableDeadMobRendering": false,
     "disableDeadMobTargeting": true,
     "disableEntityRendering": false,
