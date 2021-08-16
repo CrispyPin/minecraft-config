@@ -12,7 +12,7 @@
     "lavaVisibilityOptifineCompat": true,
     "handRestockPre": true,
     "hangableEntityBypassInverse": false,
-    "permanentSneakAllowInGUIs": false,
+    "permanentSneakAllowInGUIs": true,
     "placementRestrictionTiedToFast": true,
     "potionWarningBeneficialOnly": true,
     "shulkerDisplayBgColor": true,
@@ -24,7 +24,7 @@
     "zoomAdjustMouseSensitivity": true,
     "breakingRestrictionMode": "line",
     "elytraCameraIndicator": "with_key",
-    "placementRestrictionMode": "face",
+    "placementRestrictionMode": "layer",
     "hotbarSwapOverlayAlignment": "bottom_right",
     "snapAimMode": "yaw",
     "chatTimeFormat": "[HH:mm:ss]",
@@ -36,7 +36,7 @@
     "breakingGridSize": 3,
     "fastBlockPlacementCount": 2,
     "fastLeftClickCount": 10,
-    "fastRightClickCount": 10,
+    "fastRightClickCount": 64,
     "fillCloneLimit": 10000000,
     "flySpeedPreset1": 0.01,
     "flySpeedPreset2": 0.064,
@@ -50,7 +50,7 @@
     "hotbarSwapOverlayOffsetY": 4,
     "itemSwapDurabilityThreshold": 20,
     "mapPreviewSize": 160,
-    "periodicAttackInterval": 20,
+    "periodicAttackInterval": 15,
     "periodicUseInterval": 20,
     "periodicHoldAttackDuration": 20,
     "periodicHoldAttackInterval": 20,
@@ -622,7 +622,7 @@
   },
   "DisableToggles": {
     "disableArmorStandRendering": false,
-    "disableAxeStripping": false,
+    "disableAxeStripping": true,
     "disableBlockBreakingParticles": true,
     "disableDoubleTapSprint": false,
     "disableBossFog": false,
@@ -932,7 +932,7 @@
       }
     },
     "disableRenderingScaffolding": {
-      "keys": "",
+      "keys": "X,S",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",
@@ -1374,7 +1374,7 @@
       }
     },
     "tweakFakeSneaking": {
-      "keys": "",
+      "keys": "RIGHT_ALT",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",
@@ -1398,7 +1398,7 @@
       }
     },
     "tweakFastBlockPlacement": {
-      "keys": "",
+      "keys": "X,R",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",
@@ -1650,7 +1650,7 @@
       }
     },
     "tweakPeriodicAttack": {
-      "keys": "",
+      "keys": "KP_8",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",
@@ -1698,7 +1698,7 @@
       }
     },
     "tweakPermanentSneak": {
-      "keys": "",
+      "keys": "LEFT_CONTROL,RIGHT_ALT",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",

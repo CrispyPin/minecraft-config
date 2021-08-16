@@ -256,7 +256,7 @@
       }
     },
     "openGuiMainMenu": {
-      "keys": "K",
+      "keys": "RIGHT_ALT,K",
       "settings": {
         "activate_on": "RELEASE",
         "context": "INGAME",

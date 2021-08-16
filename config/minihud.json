@@ -178,7 +178,7 @@
     "timeTotalDivisor": 24000
   },
   "InfoTypeToggles": {
-    "infoBeeCount": true,
+    "infoBeeCount": false,
     "infoBiome": false,
     "infoBiomeRegistryName": false,
     "infoBlockBreakSpeed": false,
@@ -189,16 +189,16 @@
     "infoChunkSections": false,
     "infoChunkSectionsLine": false,
     "infoChunkUpdates": false,
-    "infoCoordinates": false,
+    "infoCoordinates": true,
     "infoDifficulty": false,
     "infoDimensionId": false,
     "infoDistance": false,
     "infoEntities": false,
-    "infoEntitiesClientWorld": true,
+    "infoEntitiesClientWorld": false,
     "infoEntityRegistryName": false,
-    "infoFacing": false,
+    "infoFacing": true,
     "infoFPS": true,
-    "infoHoneyLevel": false,
+    "infoHoneyLevel": true,
     "infoLightLevel": false,
     "infoLookingAtBlock": false,
     "infoLookingAtBlockInChunk": false,
@@ -206,7 +206,7 @@
     "infoMemoryUsage": false,
     "infoLoadedChunksCount": false,
     "infoParticleCount": false,
-    "infoPing": false,
+    "infoPing": true,
     "infoRegionFile": false,
     "infoRotationPitch": false,
     "infoRotationYaw": false,
@@ -403,7 +403,7 @@
       }
     },
     "infoEntities": {
-      "keys": "",
+      "keys": "H,E",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",
@@ -415,7 +415,7 @@
       }
     },
     "infoEntitiesClientWorld": {
-      "keys": "",
+      "keys": "H,E",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",
@@ -487,7 +487,7 @@
       }
     },
     "infoLookingAtBlock": {
-      "keys": "",
+      "keys": "H,B",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",
@@ -745,8 +745,8 @@
     "overlaySpawnableColumnHeights": false,
     "overlaySpawnChunkReal": false,
     "overlaySpawnChunkPlayer": false,
-    "overlayStructureMainToggle": false,
-    "shapeRenderer": true
+    "overlayStructureMainToggle": true,
+    "shapeRenderer": false
   },
   "RendererHotkeys": {
     "debugChunkBorder": {
@@ -954,7 +954,7 @@
       }
     },
     "overlayStructureMainToggle": {
-      "keys": "",
+      "keys": "X,5",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",
@@ -1243,7 +1243,7 @@
     "Jungle Temple": false,
     "Mansion": false,
     "Mineshaft": false,
-    "Nether Fortress": false,
+    "Nether Fortress": true,
     "Nether Fossil": false,
     "Ocean Monument": false,
     "Ocean Ruin": false,

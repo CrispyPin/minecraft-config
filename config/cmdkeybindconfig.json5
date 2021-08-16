@@ -17,9 +17,9 @@
 			// Macro keybinding
 			"keyName": "key.keyboard.r",
 			// Key modifier
-			"keyModName": "key.keyboard.unknown",
+			"keyModName": "key.keyboard.right.alt",
 			// Command to execute
-			"command": "/gamemode creative",
+			"command": "/gamemode survival",
 			// Type of Macro. Delayed, Repeating, SingleUse, DisplayOnly
 			"macroType": "SingleUse",
 			// Delay(Milliseconds) used for the delay type.
