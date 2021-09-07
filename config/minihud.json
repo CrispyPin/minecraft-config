@@ -184,7 +184,7 @@
     "infoBlockBreakSpeed": false,
     "infoBlockInChunk": false,
     "infoBlockPosition": false,
-    "infoBlockProperties": false,
+    "infoBlockProperties": true,
     "infoChunkPosition": false,
     "infoChunkSections": false,
     "infoChunkSectionsLine": false,

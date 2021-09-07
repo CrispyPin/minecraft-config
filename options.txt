@@ -4,7 +4,7 @@ autoSuggestions:true
 chatColors:true
 chatLinks:true
 chatLinksPrompt:true
-enableVsync:false
+enableVsync:true
 entityShadows:true
 forceUnicodeFont:false
 discrete_mouse_scroll:false
@@ -24,19 +24,19 @@ fov:0.25
 screenEffectScale:0.28169015
 fovEffectScale:1.0
 gamma:16.0
-renderDistance:24
+renderDistance:32
 entityDistanceScaling:5.0
 guiScale:3
-particles:1
+particles:0
 maxFps:260
 difficulty:0
 graphicsMode:1
 ao:2
 biomeBlendRadius:2
 renderClouds:false
-resourcePacks:["programer_art","vanilla","file/VT_1.17.zip","file/really-old-trash"]
-incompatibleResourcePacks:["file/really-old-trash"]
-lastServer:ha you thought
+resourcePacks:["vanilla","programer_art","Fabric Mods","file/simple-lamps","file/NeuralBlenderPack"]
+incompatibleResourcePacks:[]
+lastServer:mc.crispypin.cc:25568
 lang:en_au
 chatVisibility:0
 chatOpacity:1.0
@@ -45,7 +45,7 @@ textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
 advancedItemTooltips:true
-pauseOnLostFocus:false
+pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
 heldItemTooltips:true
@@ -120,11 +120,11 @@ key_key.minimap.togglefullscreen:key.mouse.5
 key_key.minimap.waypointhotkey:key.keyboard.g
 key_key.minimap.togglemobs:key.keyboard.unknown
 key_key.minimap.toggleingamewaypoints:key.keyboard.keypad.7
-soundCategory_master:0.29359823
+soundCategory_master:0.36865342
 soundCategory_music:0.0
 soundCategory_record:0.4600939
 soundCategory_weather:0.23943663
-soundCategory_block:0.2746479
+soundCategory_block:0.22535211
 soundCategory_hostile:0.049295776
 soundCategory_neutral:0.0
 soundCategory_player:0.4976526

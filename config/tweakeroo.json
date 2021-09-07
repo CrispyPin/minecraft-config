@@ -24,7 +24,7 @@
     "zoomAdjustMouseSensitivity": true,
     "breakingRestrictionMode": "line",
     "elytraCameraIndicator": "with_key",
-    "placementRestrictionMode": "layer",
+    "placementRestrictionMode": "plane",
     "hotbarSwapOverlayAlignment": "bottom_right",
     "snapAimMode": "yaw",
     "chatTimeFormat": "[HH:mm:ss]",
@@ -555,7 +555,7 @@
     "gammaValueOriginal": 1.0,
     "hotbarScrollCurrentRow": 3,
     "slimeBlockSlipperinessOriginal": 0.800000011920929,
-    "snapAimLastYaw": 270.0
+    "snapAimLastYaw": 180.0
   },
   "Lists": {
     "creativeExtraItems": [
@@ -623,7 +623,7 @@
   "DisableToggles": {
     "disableArmorStandRendering": false,
     "disableAxeStripping": true,
-    "disableBlockBreakingParticles": true,
+    "disableBlockBreakingParticles": false,
     "disableDoubleTapSprint": false,
     "disableBossFog": false,
     "disableChunkRendering": false,
